@@ -23,11 +23,13 @@ header > h1 {
 }
 
 .score-board {
-    margin: 200px;
+    margin: 0 auto;
+    margin-top: 15%;
     border: 3px solid white;
     border-radius: 4px;
     text-align: center;
     width: 200px;
+    position: relative;
     color: white;
     font-size: 46px;
     padding: 20px 20px;
@@ -42,16 +44,16 @@ header > h1 {
     font-family: Asap, sans-serif;
 }
 
-#user-lable {
+#user-label {
     position: absolute;
     top: 30px;
-    left: 25px;
+    left: -35px;
 }
 
 #computer-label {
     position: absolute;
     top: 30px;
-    right: 50px;
+    right: -40px;
 }
 
 .results {
@@ -60,6 +62,7 @@ header > h1 {
 }
 
 .results > p {
+    margin-top: 10%;
     text-align: center;
     font-weight: bold;
     font-family: Asap, sans-serif;
