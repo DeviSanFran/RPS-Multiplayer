@@ -23,6 +23,7 @@ header > h1 {
 }
 
 .score-board {
+    position: center;
     margin: 200px;
     border: 3px solid white;
     border-radius: 4px;

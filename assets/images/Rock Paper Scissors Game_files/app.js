@@ -4,8 +4,8 @@ const userScore = 0;
 const computerScore = 0;
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("computer-score");
-const scoreBoard_div = document.getElementById("score-board");
-const result_p = document.getElementById("result . p");
+const scoreBoard_div = document.getElementById(".score-board");
+const result_p = document.getElementById(".result . p");
 const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
 const scissors_div = document.getElementById("s");
@@ -95,3 +95,4 @@ function main(){
     })
 }
 
+main();
